@@ -260,7 +260,8 @@ form
   background: #FFF url("Images/carte.jpg");
 }
 
-h3 {
+h3 
+{
   position : absolute;
   left : 415px;
   top  : 175px;
@@ -268,29 +269,34 @@ h3 {
   font : 1em 'Covered By Your Grace', sans-serif;
 }
 
-#from {
+#from 
+{
   position: absolute;
   left : 398px;
   top  : 235px;
 }
 
-#reply {
+#reply 
+{
   position: absolute;
   left : 390px;
   top  : 285px;
 }
 
-#message {
+#message 
+{
   position: absolute;
   left : 20px;
   top  : 70px;
 }
 
-label {
+label 
+{
   font : .8em 'Piedra', sans-serif;
 }
 
-input, textarea {
+input, textarea 
+{
   font    : .9em/1.5em 'Covered By Your Grace', sans-serif;
 
   border  : none;
@@ -301,18 +307,21 @@ input, textarea {
   background: none;
 }
 
-input:focus, textarea:focus {
+input:focus, textarea:focus 
+{
   background   : rgba(0,0,0,.1);
   border-radius: 5px;
   outline      : none;
 }
 
-input {
+input 
+{
     height: 2.5em; /* pour IE */
     vertical-align: middle; /* optionnel mais donne meilleur aspect pour IE */
 }
 
-textarea {
+textarea 
+{
   display : block;
 
   padding : 10px;
@@ -324,7 +333,8 @@ textarea {
   overflow: auto;
 }
 
-button {
+button 
+{
   position     : absolute;
   left         : 440px;
   top          : 360px;
@@ -345,12 +355,14 @@ button {
         transform: rotate(-1.5deg);
 }
 
-button:after {
+button:after 
+{
   content: " >>>";
 }
 
 button:hover,
-button:focus {
+button:focus 
+{
   outline   : none;
   background: #000;
   color   : #FFF;
@@ -423,7 +435,8 @@ a
 	outline: 0;
 }
 
-.animated-button1 {
+.animated-button1 
+{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -444,7 +457,8 @@ a
           box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
 }
 
-.animated-button1::before {
+.animated-button1::before 
+{
   content: '';
   position: absolute;
   top: 0px;
@@ -457,15 +471,12 @@ a
   transition: .2s opacity ease-in-out;
 }
 
-.animated-button1:hover::before {
-  opacity: 0.2;
-}
+.animated-button1:hover::before {opacity: 0.2;}
 
-.animated-button1 span {
-  position: absolute;
-}
+.animated-button1 span {position: absolute;}
 
-.animated-button1 span:nth-child(1) {
+.animated-button1 span:nth-child(1) 
+{
   top: 0px;
   left: 0px;
   width: 100%;
@@ -476,7 +487,8 @@ a
           animation: 2s animateTop linear infinite;
 }
 
-@keyframes animateTop {
+@keyframes animateTop 
+{
   0% {
     -webkit-transform: translateX(100%);
             transform: translateX(100%);
@@ -487,7 +499,8 @@ a
   }
 }
 
-.animated-button1 span:nth-child(2) {
+.animated-button1 span:nth-child(2) 
+{
   top: 0px;
   right: 0px;
   height: 100%;
@@ -498,7 +511,8 @@ a
           animation: 2s animateRight linear -1s infinite;
 }
 
-@keyframes animateRight {
+@keyframes animateRight 
+{
   0% {
     -webkit-transform: translateY(100%);
             transform: translateY(100%);
@@ -509,7 +523,8 @@ a
   }
 }
 
-.animated-button1 span:nth-child(3) {
+.animated-button1 span:nth-child(3) 
+{
   bottom: 0px;
   left: 0px;
   width: 100%;
@@ -520,7 +535,8 @@ a
           animation: 2s animateBottom linear infinite;
 }
 
-@keyframes animateBottom {
+@keyframes animateBottom 
+{
   0% {
     -webkit-transform: translateX(-100%);
             transform: translateX(-100%);
@@ -531,7 +547,8 @@ a
   }
 }
 
-.animated-button1 span:nth-child(4) {
+.animated-button1 span:nth-child(4) 
+{
   top: 0px;
   left: 0px;
   height: 100%;
@@ -542,7 +559,8 @@ a
           animation: 2s animateLeft linear -1s infinite;
 }
 
-@keyframes animateLeft {
+@keyframes animateLeft 
+{
   0% {
     -webkit-transform: translateY(-100%);
             transform: translateY(-100%);
